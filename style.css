@@ -1,0 +1,1044 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #050109;
+}
+
+.mainHeaderWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: rgba(94, 94, 94, 0.10);
+
+}
+.logoDiv{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logoText{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+.mainHeaderDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    width: 100%;
+    max-width: 1050px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mainHeaderDiv{
+        max-width: 704px;
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mainHeaderDiv{
+        max-width: 288px;
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+.twoDivsWrapper{
+    display: flex;
+    width: 100%;
+    max-width: 690px;
+    justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+    .twoDivsWrapper{
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .twoDivsWrapper{
+        flex-direction: column;
+        gap: 74px;
+    }
+}
+.headerTextsMiddleDiv{
+    display: flex;
+    width: 100%;
+    max-width: 455px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: 1px solid #5C6069;
+}
+@media screen and (max-width: 767px) {
+    .headerTextsMiddleDiv{
+        flex-direction: column;
+        max-width: 288px;
+        border-radius: 16px;
+        gap: 8px;
+    }
+}
+.aboutFrame{
+    display: flex;
+    padding: 8px 12px;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 24px;
+    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+}
+@media screen and (max-width: 767px) {
+    .aboutFrame{
+        width: 100%;
+    }
+}
+.headerNavBarText{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.servicesDiv{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.headerRightDiv{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 278px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .headerRightDiv{
+        max-width: unset;
+        justify-content: flex-end;
+    }
+}
+.secondDivFrames{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 278px;
+}
+.premiumFrame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 24px;
+    border: 1px solid #5C6069;
+}
+a{
+    text-decoration-line: none;
+}
+.createAccountFrame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 24px;
+    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+}
+
+.mainFirstContainerWrapper{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 750px;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(200px);
+    background: repeating-linear-gradient(#201230, #000);
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mainFirstContainerWrapper{
+        height: 613px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mainFirstContainerWrapper{
+        height: 550px;
+    }
+}
+.mainImgDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.mainImg{
+    position: absolute;
+    bottom: 0px;
+    z-index: -5;
+}
+.textsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+h1{
+    font-size: 56px;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: center;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 24px;
+        line-height: 50px;
+    }
+}
+.mainContainerLandingPage{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 996px;
+    align-items: center;
+    margin-top: 70px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mainContainerLandingPage{
+        max-width: 704px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mainContainerLandingPage{
+        max-width: 288px;
+    }
+}
+
+.miniPurpleText{
+    color: #D9DCEB;
+    font-size: 24px;
+}
+@media screen and (max-width: 1024px) {
+    .miniPurpleText{
+        font-size: 16px;
+    }
+}
+
+.center{
+    text-align: center;
+}
+.positioned{
+    padding: 8px 24px;
+    position: relative;
+}
+.newDiv{
+    left: -13px;
+    top: -15px;
+    position: absolute;
+}
+.padding{
+    padding: 8px 24px;
+}
+.whiteMiniTex{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+}
+
+.avatarsImagesFrame{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatarssDiv{
+    display: flex;
+    position: relative;
+    width: 168px;
+}
+.firstAvatar, .secondAvatar, .thirdAvatar, .fourthAvatar{
+    position: absolute;
+    top: -20px;
+}
+.firstAvatar{
+    left: 0px;
+}
+.secondAvatar{
+    left: 34px;
+}
+.thirdAvatar{
+    right: 43px;
+}
+
+.fourthAvatar{
+    right: 10px;
+}
+.size{
+    width: 95px;
+    padding-top: 10px;
+    text-align: center;
+}
+.miniPurpleeText{
+    color: #D9DCEB;
+    font-size: 14px;
+}
+
+
+.logosMainDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 24px 0px;
+}
+
+.mainWrapper{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.questioMark{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #FFF;
+    padding: 16px;
+    border-radius: 100px;
+    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+    box-shadow: 0px 0px 26.6px 0px rgba(166, 87, 248, 0.50);
+}
+.mainWrapper > div {
+    display: flex;
+    width: 100%;
+    max-width: 1048px;
+    justify-content: center;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mainWrapper > div{
+        max-width: 704px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mainWrapper > div{
+        max-width: 288px;
+    }
+}
+.howToUSeDiv{
+    flex-direction: column;
+    gap: 40px;
+}
+.usageMiniDivsMainDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+    .usageMiniDivsMainDiv{
+        flex-direction: column;
+        gap: 22px;
+    }
+}
+.miniUsageDiv{
+    display: flex;
+    width: 100%;
+    max-width: 255px;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+}
+.textsDDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-right: 12px;
+    border-right: 1px solid #7A7A7A;
+}
+@media screen and (max-width: 767px) {
+    .textsDDiv{
+        border: none;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #7A7A7A;
+    }
+}
+.nnumberText{
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    background-color: #040405;
+    color: #FFF;
+    font-size: 8px;
+    font-weight: 900;
+    padding: 10px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+
+}
+.usageLogoDiv{
+    display: flex;
+    width: fit-content;
+    position: relative;
+}
+.usageMiniDivHeader{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 900;
+}
+.greyMiniText{
+    color: #7A7A7A;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+.imagesDiv{
+    display: flex;
+    position: relative;
+}
+.simpleDiv{
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .simpleDiv{
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .simpleDiv{
+        flex-direction: column;
+    }
+}
+
+.whiteFrame{
+    position: absolute;
+    z-index: 8;
+    bottom: 78px;
+    left: 165px;
+}
+@media screen and (max-width: 767px) {
+    .whiteFrame{
+        left: 20px;
+        width: 287px;
+    }
+}
+.whiteTetxt{
+    color: #D9DCEB;
+    font-size: 24px;
+}
+.whiteMiniText{
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    padding: 8px 24px;
+    border-radius: 24px;
+    border: 1px solid #5C6069;
+    margin-bottom: 90px;
+}
+
+.textssDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 620px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .textssDiv{
+        order: -3;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 767px) {
+    .textssDiv{
+        max-width: 288px;
+        order: -3;
+        align-items: center;
+
+    }
+}
+
+
+.revlyMainDiv{
+    position: relative;
+    padding-top: 95px;
+    flex-direction: column;
+    gap: 55px;
+}
+h2{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+}
+@media screen and (max-width: 767px) {
+    h2{
+        font-size: 24px;
+    }
+}
+.center{
+    text-align: center;
+}
+.grey{
+    color: #D9DCEB;
+    font-size: 24px;
+}
+.purpleSpan{
+    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.revlyDivsMainDiv{
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    margin-top: 60px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .revlyDivsMainDiv{
+        flex-direction: column;
+        gap: 84px;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 767px) {
+    .revlyDivsMainDiv{
+        flex-direction: column;
+        gap: 74px;
+    }
+}
+.greyDiv{
+    position: relative;
+    background-color: #10121a;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    gap: 8px;
+    padding: 96px 32px 46px 32px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .greyDiv{
+        max-width: 340px;
+    }
+}
+.greyDivsLogo{
+    border-radius: 72px;
+    width: 100%;
+    max-width: 120px;
+    background-color: #11081a;
+    box-shadow: 0px 0px 57.3px 0px rgba(166, 87, 248, 0.30);
+    position: absolute;
+    top: -50px;
+    left: 126px;
+}
+@media screen and (max-width: 767px) {
+    .greyDivsLogo{
+        left: 90px;
+    }
+}
+.geyDivHeader{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.greyDivParag{
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.galaxyDivWrapper{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: #10121B;
+    padding-bottom: 290px;
+}
+@media screen and (max-width: 767px) {
+    .galaxyDivWrapper{
+        padding-bottom: 190px;
+    }
+}
+.galaxyMainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    max-width: 1048px;
+}
+@media screen and (max-width: 767px) {
+    .galaxyMainDiv{
+        max-width: 288px;
+    }
+}
+.purpleButton{
+    position: relative;
+    padding: 8px 24px;
+    cursor: pointer;
+    width: 137px;
+    border-radius: 24px;
+    border: 1px solid #5C6069;
+    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+}
+.galaxyDivWrapper{
+    margin-bottom: 196px;
+}
+
+.third{
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .third{
+        display: flex;
+        position: absolute;
+        bottom: -180px;
+    }   
+}
+.galaxyImageDiv{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+@media screen and (max-width: 1024px) {
+    .galaxyImageDiv{
+        display: none;
+    }
+}
+.galaxyTablet{
+    display: none;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .galaxyTablet{
+        display: flex;
+        position: absolute;
+        bottom: -215px;
+    }
+}
+.crown{
+    position: absolute;
+    top: -18px;
+    left: -18px;
+}
+.textsMainDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    padding: 56px;
+}
+@media screen and (max-width: 767px) {
+    .textsMainDiv{
+        padding: 48px 16px;
+    }
+}
+.whatCustomersSayDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    width: 100%;
+    max-width: 1048px;
+}
+@media screen and (max-width: 767px) {
+    .whatCustomersSayDiv{
+        max-width: 288px;
+    }
+}
+.customersDiv{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    padding: 132px 0px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .customersDiv{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 12px;
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .customersDiv{
+        flex-direction: column;
+        padding: 35px;
+    }
+}
+.miniCOmmentDiv{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .miniCOmmentDiv{
+        all: unset;
+        display: flex;
+        position: relative;
+        left: 35px;
+        width: 100%;
+        max-width: 344px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .miniCOmmentDiv{
+        all: unset;
+        display: flex;
+        position: relative;
+        width: 100%;
+        max-width: 288px;
+    }
+}
+
+.miniCOmmentDivThirdFifth{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .miniCOmmentDivThirdFifth{
+        all: unset;
+        position: relative;
+        display: flex;
+    }
+}
+@media screen and (max-width: 767px) {
+    .miniCOmmentDivThirdFifth{
+        all: unset;
+        display: flex;
+        position: relative;
+        width: 100%;
+        max-width: 288px;
+    }
+}
+.miniCOmmentDivThird{
+    position: absolute;
+    bottom: 0px;
+    right: 265px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .miniCOmmentDivThird{
+        all: unset;
+        position: relative;
+        left: 35px;
+        display: flex;
+    }
+}
+@media screen and (max-width: 767px) {
+    .miniCOmmentDivThird{
+        all: unset;
+        display: flex;
+        position: relative;
+        width: 100%;
+        max-width: 288px;
+    }
+}
+
+.twoDivsWrapperSecond{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+@media screen and (max-width: 767px) {
+    .twoDivsWrapperSecond{
+        flex-direction: column;
+        gap: 54px;
+    }
+}
+
+.miniCOmmentDivSecond{
+    position: absolute;
+    top: 0px;
+    left: 265px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .miniCOmmentDivSecond{
+        all: unset;
+        display: flex;
+        position: relative;
+        width: 100%;
+        max-width: 344px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .miniCOmmentDivSecond{
+        all: unset;
+        display: flex;
+        position: relative;
+        width: 100%;
+        max-width: 288px;
+    }
+}
+.miniCOmmentDivSecond, .miniCOmmentDiv, 
+.miniCOmmentDivThird, .miniCOmmentDivThirdFifth{
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 48px 24px 35px 24px;
+    border-radius: 12px;
+    background-color: #10121B;
+    width: 100%;
+    max-width: 250px;
+}
+.columnsDiv{
+    position: absolute;
+    right: 5px;
+    bottom: -20px;
+}
+.columnsDivUp{
+    position: absolute;
+    top: -20px;
+    left: 5px;
+}
+.whatCostumersWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 300px;
+}
+.costumersDivWrapper{
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    width: fit-content;
+}
+.avatar{
+    position: absolute;
+    top: -32px;
+    left: 97px;
+}
+
+.investingDivWrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 96px;
+    margin-bottom: 116px;
+}
+.inestingMainDIv{
+    display: flex;
+    width: 100%;
+    max-width: 1048px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .inestingMainDIv{
+        flex-direction: column;
+        max-width: 704px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .inestingMainDIv{
+        max-width: 288px;
+        flex-direction: column;
+    }
+}
+.investingPurpleFrame{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px 40px;
+    justify-content: flex-start;
+    border-radius: 16px;
+    border: 2px solid var(--gradient, #7039F0);
+    background: rgba(16, 18, 27, 0.10);
+    backdrop-filter: blur(8.75px);
+}
+.rngsImg{
+    width: 50%;
+    position: absolute;
+    right: 70px;
+    z-index: -999;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .rngsImg{
+        all: unset;
+        position: absolute;
+        left: 200px;
+        z-index: -999;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .rngsImg{
+        width: 80%;
+        
+    }
+}
+.width{
+    width: 100%;
+    max-width: 552px;
+}
+
+.mainCOntainerWrapper{
+    padding: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+@media screen and (max-width: 767px) {
+    .mainCOntainerWrapper{
+        display: none;
+    }
+}
+.whyUsMinWrapper{
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .whyUsMinWrapper{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 24px;
+        max-width: 288px;
+        justify-content: center;
+    }
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.miniDiv{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 24px 65px;
+    border-radius: 12px;
+    background: linear-gradient(323deg, rgba(0, 255, 107, 0.08) 0%, rgba(0, 0, 0, 0.00) 47.43%), #10121B;
+}
+
+.mainIphoneDiv{
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    padding-top: 25px;
+}
+@media screen and (max-width: 767px) {
+    .mainIphoneDiv{
+        max-width: 288px;
+    }
+}
+.whiteNormText{
+    color: #FFF;
+    font-size: 16px;
+}
+.phoneDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.policyDiv{
+    left: 95px;
+    top: -5px;
+}
+.gloalVPNDIv{
+    top: 185px;
+    left: 10px;
+}
+.hideVPNDIv{
+    top: 385px;
+    left: 55px;
+}
+.personaIdentityDiv{
+    top: 580px;
+    left: 5px;
+}
+.connectionsDiv{
+    top: 60px;
+    right: 20px;
+}
+.splitDiv{
+    top: 230px;
+    right: 95px;
+}
+.supportDiv{
+    top: 430px;
+    right: 75px;
+}
+.vpnEncryption{
+    top: 660px;
+    right: 120px;
+}
+.policyDiv, .gloalVPNDIv, .hideVPNDIv, .personaIdentityDiv, 
+.connectionsDiv, .splitDiv, .supportDiv, .vpnEncryption{
+    background: linear-gradient(262deg, rgba(0, 255, 107, 0.05) 6.8%, rgba(0, 0, 0, 0.00) 34.32%), #10121B;
+    position: absolute;
+    align-items: center;
+    padding: 24px 32px;
+    display: flex;
+    gap: 8px;
+    border-radius: 12px;
+}
+
+.minFooterWrapper{
+    margin-top: 210px;
+    padding: 40px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.footerMainDiv{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1048px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .footerMainDiv{
+        max-width: 704px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .footerMainDiv{
+        max-width: 288px;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+    }
+}
+
+.footerMiniDivs{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 112px;
+}
+.whiteeMiniText{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    list-style: none;
+}
+.logosDiv{
+    display: flex;
+    gap: 16px;
+}
